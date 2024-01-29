@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*start of index*/
+body#ind{
+    background: linear-gradient(to right,#DEDBD2  0%,#DEDBD2 50%,#B0C4B1 50%,#B0C4B1 100%);
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #16425b;
+    width: 100%;
+    height: 8vh
+}
+.navbar a{
+    color: #16425b;
+    background-color: rgba(247, 225, 215, .6) ;
+    font-family: cute;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+    width: 100px;
+}
+.dropd{
+    display: none;
+    background-color: rgba(247, 225, 215, .6);
+    color: #00a5cf;
+    font-family: cute;
+    text-align: center;
+    padding: 7px;
+}
+.dropd:hover{background-color: rgba(247, 225, 215, 1);}
+
+.home{
+    position: absolute;
+    left: 32%;
+    top: 1.5%;
+}
+.home:hover{background-color: rgba(247, 225, 215, 1);}
+
+.whatitdoes{
+    position: absolute;
+    left: 46%;
+    top: 1.5%;
+}
+.whatitdoes:hover{background-color: rgba(247, 225, 215, 1);}
+
+.aboutus{
+    position: absolute;
+    left: 60.1%;
+    top: 1.5%;
+}
+.aboutus:hover{background-color: rgba(247, 225, 215, 1);}
+
+
+.banner{
+    position: absolute;
+    display: flex;
+    background-image: url(images/Husband_And_Unicef.jpg);
+    top: 10%;
+    width: 100%;
+    height: 30vh;
+    z-index: -10;
+    border: 4px solid #16425b;
+}
+
+.banner p{
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    color: #16425b;
+    font-size: 10vh;
+}
+
+.mid{
+    position: absolute;
+    display: inline-flex;
+    text-align: justify;
+    font-family: cute;
+    gap: 5vw;
+    left: 2vw;
+    top: 47vh;
+}
+
+.backg{
+    width: 45vw;
+    color: #6D6753;
+}
+.backg h1{
+    font-family: cute2;
+    font-size: 6vh;
+    color: #3d392a;
+}
+.done{
+    width: 45vw;
+    color: #445245;
+}
+.done h2{
+    font-family: cute2;
+    font-size: 6vh;
+    color: #344635;
+    text-align: left;
+}
+/*end of index*/
+
+/*start of what page*/
+body#wh{
+    background-color: #DEDBD2;
+    overflow-x: hidden;
+}
+
+.content{
+    display: inline-flex;
+    position: absolute;
+    font-family: cute;
+    left: 5vw;
+    top: 12vh;
+    gap: 4vw;
+    z-index: -10;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    gap: 5vh;
+}
+.right{
+    width: 36vw;
+}
+
+.init{
+    color: #6D6753;;
+}
+#w{
+    font-family: cute2;
+    font-size: 6vh;
+    color: #3d392a;;
+}
+.inv{
+    background-color: #4A5759;
+    color: #E5F4E0;
+    padding: 2vw;
+    height: 56.9vh;
+}
+.inv video{
+    position: relative;
+    width: 37vw;
+    left: 9.9vh;
+}
+#w2{
+    font-family: cute2;
+    font-size: 6vh;
+}
+.anp{
+    background-color: #B0C4B1;
+    color:  #466448;
+    padding: 2vw;
+    margin-right: 1vw;
+    height: fit-content;
+}
+#w3{
+    font-family: cute2;
+    font-size: 6vh;
+    color: #2b3f2c;
+}
+/*end of what page*/
+
+/*start of about page*/
+body#abt{
+    background: linear-gradient(to right,#DEDBD2  0%,#DEDBD2 50%,#B0C4B1 50%,#B0C4B1 100%);
+    overflow-x: hidden;
+}
+
+.cont{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-family: cute;
+    left: 4vw;
+    gap: 4vw;
+    text-align: justify;
+    top: 14vh;
+}
+.cont p{
+    word-break: break-all;
+}
+
+.left2{
+    display: inline-flex;
+    flex-direction: column;
+    width: 50vw;
+    gap: 22vh;
+}
+
+.who{
+    color: #6D6753;
+}
+.who p{
+    width: 42vw;
+}
+.who h2{
+    color: #3d392a;;
+}
+
+.help{
+    position: absolute;
+    border: 2px solid #a08072;
+    background-color: #F7E1D7;
+    color: #372016;
+    width: 34vw;
+    padding: 5vh;
+    top: 35vh;
+    height: fit-content;
+}
+
+.right2{
+    width: 50vw;
+}
+
+.vision{
+    position: relative;
+    width: 42vw;
+    color: #466448;
+}
+.vision h2{
+    color: #304b32;
+}
+.mission{
+    position: absolute;
+    background-color: #4A5759;
+    width: 50vw;
+    right: 3.4vw;
+    top: 32vh;
+    height: 60vh;
+    color: #E5F4E0;
+}
+.mission p{
+    position: relative;
+    width: 35vw;
+    left: 4vw;
+    top: 8vh;
+}
+.mission h2{
+    position: relative;
+    left: 8vh;
+    top: 8vh;
+}
+
+#a, #a2, #a3, #a4{
+    font-family: cute2;
+    font-size: 6vh;
+    text-align: left;
+}
+
+/*responsive/mobile*/
+@media screen and (max-width: 800px){
+    /*navigation bar*/
+    .dropd{
+        display: block;
+        width: 20vh;
+        opacity: 100%;
+        position: absolute;
+        left: 37%;
+        top: 15%;
+    }
+    .dropdown{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .dropdc{
+        display: none;
+        box-shadow: 9vh 9.8vh 0px 15vh rgb(172, 117, 129);
+    }
+    .dropdc a{
+        float: none;
+        display: block;
+        text-align: left;
+        width: 20vh;
+        background-color: rgba(247, 225, 215, 1);
+        
+    }
+    .home{
+        position: absolute;
+        left: 37%;
+        top: 8vh;
+    }
+    .what{
+        position: absolute;
+        left: 37%;
+        top: 13vh;
+    }
+    .about{
+        position: absolute;
+        left: 37%;
+        top: 18vh;
+    }
+
+    /*home page*/
+    body#ind{
+        height: 180vh;
+        background: linear-gradient(#DEDBD2 93vh, #B0C4B1 34vh);
+    }
+
+    .mid{
+        flex-wrap: wrap;
+        flex-direction: column;
+        left: 27vw;
+        gap: 15vh;
+    }
+    .backg h1{
+        text-align: center;
+    }
+    .done h2{
+        text-align: center;
+    }
+
+    /*what page*/
+    body#wh{
+        height: 100%;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .left{
+        width: 87vw;
+    }
+
+    .right{
+        width: 87vw;
+    }
+
+    #w, #w2, #w3{
+        text-align: center;
+    }
+
+    .inv video{
+        width: 67vw;
+        left: 7vh;
+    }
+
+    /*about page*/
+    body#abt{
+        height: 100%;
+        background: linear-gradient(#DEDBD2 93vh, #B0C4B1 34vh);
+    }
+
+    .cont{
+        flex-direction: column;
+        gap: 90vh;
+    }
+
+    .who p{
+        width: 84vw;
+    }
+
+    .help{
+        width: 78vw;
+    }
+
+    .help h2{
+        width: 90vw;
+    }
+    .help p{
+        width: 80vw;
+    }
+
+    .vision{
+        position: relative;
+        width: 80vw;
+    }
+    .mission{
+        position: relative;
+        width: 100vw;
+    }
+
+    .mission h2{
+        text-align: left;
+        position: relative;
+        right: 12vw;
+    }
+    .mission p{
+        position: relative;
+        width: 80vw;
+
+    }
+
+    .rp{
+        position: absolute;
+        top: 205vw;
+    }
+
+    .dropdc a:hover {background-color: rgb(247, 215, 215);}
+    .dropdown:hover .dropdc {display: block; z-index: 1000;}
+    .dropd:hover {background-color: rgba(247, 225, 215, 1)}
+}
